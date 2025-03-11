@@ -41,14 +41,14 @@ graph TD;
 - **Red dots** represent outliers detected in the dataset.
 
 📸 **Screenshot:**
-![LOF Anomaly Detection](Screenshots/LOF_Outliers.png)
+![LOF Anomaly Detection](screenshots/Outlier.png)
 
 ### **2️⃣ Dimensionality Reduction with PCA**
 - **Applied PCA (Principal Component Analysis)** to **reduce feature dimensionality**.
 - **Retained the most significant variance** while minimizing computational complexity.
 
 📸 **Screenshot:**
-![PCA Feature Extraction](Screenshots/PCA_Feature_Extraction.png)
+![PCA Feature Extraction](screenshot/clusters.png)
 
 ### **3️⃣ Clustering Algorithms for Customer Segmentation**
 Implemented **three clustering techniques**:
@@ -57,14 +57,14 @@ Implemented **three clustering techniques**:
 - **Agglomerative Hierarchical Clustering** – Provides a hierarchical view of customer similarities.
 
 📸 **Screenshot:**
-![Comparison of Clustering Algorithms](Screenshots/Clustering_Comparison.png)
+![Comparison of Clustering Algorithms](screenshot/CompareInGr.png)
 
 ### **4️⃣ Deep Learning with Autoencoder for Feature Extraction**
 - Used an **Autoencoder neural network** to learn high-dimensional customer features.
 - Applied clustering on the **latent space representation** extracted from the autoencoder.
 
 📸 **Screenshot:**
-![Autoencoder with K-Means](Screenshots/Autoencoder_KMeans.png)
+![Autoencoder with K-Means](screenshot/Result.png)
 
 ### **5️⃣ Evaluation of Clustering Models**
 - Compared different clustering techniques using:
@@ -73,28 +73,22 @@ Implemented **three clustering techniques**:
   - **Davies Bouldin Score**
 
 📸 **Screenshot:**
-![Evaluation Metrics](Screenshots/Clustering_Evaluation.png)
+![Evaluation Metrics](screenshot/Spendingtrends.png)
 
 ### **6️⃣ RFM Analysis for Customer Segmentation**
 - Implemented **Recency, Frequency, Monetary (RFM) analysis** to group customers based on shopping habits.
 - Used RFM clusters to define **marketing strategies**.
 
-📸 **Screenshot:**
-![RFM Segmentation](Screenshots/RFM_Analysis.png)
-
-### **7️⃣ Spending Trend Analysis**
-- Compared **customer spending behavior** across different clusters.
-- Identified trends in **purchase frequency and total expenditure**.
 
 📸 **Screenshot:**
-![Spending Trends](Screenshots/Spending_Trends.png)
+![Spending Trends](screenshot/Spending_Trends.png)
 
 ### **8️⃣ Customer Behavior Analysis**
 - Analyzed customer engagement and purchasing habits.
 - Determined factors influencing **customer retention & loyalty**.
 
 📸 **Screenshot:**
-![Customer Behavior Analysis](Screenshots/Customer_Behavior.png)
+![Customer Behavior Analysis](screenshot/comparisonInTable.png)
 
 ### **9️⃣ Personalized Product Recommendation System**
 - **Used collaborative filtering** to recommend products to customers.
@@ -102,7 +96,7 @@ Implemented **three clustering techniques**:
 - If **fewer than 3 recommendations** were found, fallback to **cluster-based recommendations**.
 
 📸 **Screenshot:**
-![Product Recommendation Approach](Screenshots/Product_Recommendation.png)
+![Product Recommendation Approach](screenshot/recommend.png)
 
 ---
 
@@ -136,7 +130,6 @@ Implemented **three clustering techniques**:
 ## 👥 Contributors
 
 - [Suyash Khare]
-- [Your Team Member Names]
 
 ---
 
